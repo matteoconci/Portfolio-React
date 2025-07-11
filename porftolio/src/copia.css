@@ -1,0 +1,384 @@
+body {
+    background-color: #EAF4E0;
+    font-family: 'Chakra Petch', serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.project,
+.contact {
+    display: none;
+}
+
+/*Header and navbar*/
+
+header {
+    margin-top: 1rem;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+nav {
+    margin: auto 0 auto auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 0 0 3rem;
+}
+
+.a-nav {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+/*Home page about me*/
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about-me-h2 {
+    margin-bottom: 0;
+}
+
+.about-me-content {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.profile-pic {
+    max-width: 280px;
+    margin-left: 2rem;
+}
+
+.about-me-skills {
+    margin-top: 2rem;
+}
+
+.skills-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+.skill-item {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.skill-icon {
+    max-width: 3rem;
+    margin-right: 1rem;
+}
+
+/*Projects Page*/
+
+.projects-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.project-flexbox,
+.project-2,
+.project-3 {
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease;
+}
+
+.two,
+.three {
+    display: none;
+}
+.project-flexbox:hover,
+.project-2:hover,
+.project-3:hover {
+    text-decoration: underline;
+}
+
+
+.projects-content {
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+}
+
+.projects-content a {
+    color: black;
+}
+
+.projects-content a:hover {
+    text-decoration: none;
+}
+
+/*Contact page*/
+
+.contact {
+    margin-bottom: 5rem;
+}
+
+.contact-text {
+    font-size: 1.3rem;
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.img-icon {
+    max-width: 3rem;
+}
+
+.phone-contact img {
+    max-width: 2.1rem;
+}
+
+.mail-contact img {
+    max-width: 3.5rem;
+}
+
+/*Media query*/
+
+@media only screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        margin-bottom: 0;
+        margin-top: 0.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        background-color: #EAF4E0;
+        z-index: 100;
+        padding: 0.5rem;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+
+    .nav-laptop {
+        display: none;
+    }
+
+    .nav-list {
+        margin: auto;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .nav-item {
+        margin: 0.5rem 1rem;
+    }
+
+    .about-me-content {
+        flex-direction: column;
+        text-align: justify;
+        font-size: 1rem;
+        margin: 0 3rem;
+
+    }
+
+    .profile-pic {
+        margin: 1rem auto 2rem auto;
+        max-width: 100%;
+    }
+
+    .skills-list,
+    .projects-list {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: auto;
+    }
+
+    .skill-item {
+        margin: 1rem 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skill-icon {
+        margin: 0 0 1rem 0;
+        max-width: 6rem;
+    }
+
+    .projects-content p {
+        margin: 2rem 3rem;
+        text-align: justify;
+    }
+
+    .projects-content {
+        margin-top: 1.5rem;
+    }
+
+    .projects-item {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .link-flexbox,
+    .link-project2,
+    .link-project3 {
+        text-align: center;
+    }
+
+    .projects-space {
+        display: none;
+    }
+
+    .contact-text {
+        text-align: justify;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .about-me,
+    .project,
+    .contact {
+        scroll-margin-top: 57px;
+    }
+
+    .contact {
+        margin: 0 3rem 5rem 3rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    body {
+        margin: 0 3rem;
+    }
+
+    .nav-list {
+        padding: 0;
+    }
+
+    .skill-icon {
+        margin-left: 1rem;
+    }
+
+    .skills-list {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        margin: 0 3rem;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .nav-laptop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+
+    .nav-list {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nav-item {
+        margin: auto 2rem;
+    }
+
+    .about-me-content {
+        flex-direction: column;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .skill-item {
+        margin: auto;
+    }
+
+    .skills-list {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .projects-list {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .projects-space {
+        display: none;
+    }
+
+    .projects-item {
+        margin: 0.5rem 1rem;
+    }
+
+    .link-flexbox,
+    .link-project2,
+    .link-project3 {
+        text-align: center;
+    }
+}
