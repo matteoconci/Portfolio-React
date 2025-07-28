@@ -1,16 +1,15 @@
 import { Outlet } from 'react-router-dom';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Header from './Header';
 
 const Root = () => {
     return (
-        <div>
+        <body className="bg-[#EAF4E0] font-chakra max-w-[1000px] mx-auto my-0 text-[1rem]">
+            <Header />
             <main>
                 <Outlet />
             </main>
-            <ToastContainer />
-        </div>
-    )
+        </body>
+    );
 };
 
 export default Root;
