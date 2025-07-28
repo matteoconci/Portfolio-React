@@ -11,6 +11,7 @@ import react from '../assets/React-icon.svg';
 import restAPI from '../assets/RestAPI-icon.svg';
 import express from '../assets/Express.js-icon.png';
 import node from '../assets/Node.js-icon.svg';
+import cv from '../../public/MATTEO CONCI.pdf';
 
 const AboutMe = () => {
     return (
@@ -33,7 +34,7 @@ const AboutMe = () => {
 
             <div className="mt-12 mb-10">
                 <h2 className="text-[2rem] mb-7 font-semibold">Skills</h2>
-                <p className='mb-12 text-xl'>Download my <a className='italic underline font-medium' href='' download='CV_Matteo_Conci.pdf'>curriculum vitae</a>.</p>
+                <p className='mb-12 text-xl'>Download my <a className='italic underline font-medium text-[#ae884c]' href={cv} download='CV_Matteo_Conci.pdf'>curriculum vitae</a>.</p>
                 <div>
                     <ul className="flex list-none justify-around">
                         <li className="text-xl italic font-medium flex items-center">
