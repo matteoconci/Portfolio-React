@@ -1,4 +1,5 @@
 import { useState } from "react";
+import homepage from '../assets/HomePage.mp4';
 
 const Project = () => {
     const [project, setProject] = useState(1);
@@ -17,7 +18,7 @@ const Project = () => {
                 {project === 1 &&
                     <div className="mb-50">
                         <p className="mb-6">Link to the <a href='' target="_blank" className="italic underline hover:no-underline text-[#ae884c]">GitHub repository</a>.</p>
-                        <p className="italic text-[1.1rem]">This project is still in progress. See some picture below.</p>
+                        <p className="italic text-[1.1rem]">This project is still in progress. See some picture <a href="#images" className="underline text-[#ae884c]">below</a>.</p>
                         <p className="mt-10 font-semibold text-xl">Full-stack web application designed to simulate a multi-role e-commerce platform, with dedicated UIs and functionalities for buyers, sellers and admins.</p>
                         <p className="mt-2 text-lg">Users can sign up as buyers or create a store to act as sellers, while the admin oversees the platform with extended management capabilities.</p>
                         <p className="mt-2 font-semibold text-xl">Key features include:</p>
@@ -40,8 +41,26 @@ const Project = () => {
                             <li><span className="font-semibold">Project Management & Deployment</span>: GitHub, Jira, Supabase;</li>
                             <li><span className="font-semibold">Additional</span>: Fully responsive design and modular architecture;</li>
                         </ol>
-                        <p className="mt-4 font-semibold text-xl">Pages:</p>
-                        <img></img>
+                        <div id="images">
+                            <p className="my-8 font-semibold text-xl">Pages:</p>
+                            <figure className="">
+                                <video 
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    preload="metadata"
+                                >
+                                    <source src={homepage} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Animated homepage with promotional banner
+                                </figcaption>
+                            </figure>
+                            <img></img>
+                        </div>
                     </div>
                 }
                 {project === 2 &&  

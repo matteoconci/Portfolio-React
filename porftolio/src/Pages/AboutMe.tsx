@@ -11,7 +11,7 @@ import react from '../assets/React-icon.svg';
 import restAPI from '../assets/RestAPI-icon.svg';
 import express from '../assets/Express.js-icon.png';
 import node from '../assets/Node.js-icon.svg';
-import cv from '../../public/MATTEO CONCI.pdf';
+import cv from '../MATTEO CONCI.pdf';
 
 const AboutMe = () => {
     return (
