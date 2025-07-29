@@ -1,5 +1,7 @@
 import { useState } from "react";
 import homepage from '../assets/HomePage.mp4';
+import login from '../assets/Login.png';
+import register from '../assets/Register.png';
 
 const Project = () => {
     const [project, setProject] = useState(1);
@@ -43,7 +45,7 @@ const Project = () => {
                         </ol>
                         <div id="images">
                             <p className="my-8 font-semibold text-xl">Pages:</p>
-                            <figure className="">
+                            <figure className="mb-12">
                                 <video 
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"
                                     autoPlay
@@ -59,7 +61,18 @@ const Project = () => {
                                     Animated homepage with promotional banner
                                 </figcaption>
                             </figure>
-                            <img></img>
+                            <figure className="mb-12">
+                                <img src={login} alt="login page" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Login page for users
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-12">
+                                <img src={register} alt="register page" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Register page for users
+                                </figcaption>
+                            </figure>
                         </div>
                     </div>
                 }
