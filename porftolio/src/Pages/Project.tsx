@@ -48,7 +48,7 @@ const Project = () => {
                         <ol className="list-disc ml-10 text-lg">
                             <li><span className="font-semibold">Frontend</span>: JavaScript, TypeScript, React, Redux Toolkit, Tailwind CSS;</li>
                             <li><span className="font-semibold">Backend</span>: Node.js, Express.js, PostgreSQL, RESTful API architecture;</li>
-                            <li><span className="font-semibold">Authentication & Security</span>: JWT, Bcrypt, CORS, Helmet, Rate Limiter;</li>
+                            <li><span className="font-semibold">Authentication & Security</span>: JWT, Bcrypt, CORS, Helmet, Rate Limiter, Validator.js;</li>
                             <li><span className="font-semibold">Design</span>: Figma (UI/UX);</li>
                             <li><span className="font-semibold">Project Management & Deployment</span>: GitHub, Jira, Supabase;</li>
                             <li><span className="font-semibold">Additional</span>: Fully responsive design and modular architecture;</li>

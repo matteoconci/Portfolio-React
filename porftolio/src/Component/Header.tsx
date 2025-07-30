@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => { 
     return (
-        <header className="flex mt-8 mb-6">
+        <header className="flex pt-8 mb-6">
             <h1 className="text-3xl font-bold">Matteo Conci</h1>
             <nav className="mr-0 m-auto text-[1.5rem] font-bold">
                 <div>

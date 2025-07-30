@@ -3,12 +3,14 @@ import Header from './Header';
 
 const Root = () => {
     return (
-        <body className="bg-[#EAF4E0] font-chakra max-w-[1000px] mx-auto my-0 text-[1rem]">
-            <Header />
-            <main>
-                <Outlet />
-            </main>
-        </body>
+        <div className="min-h-screen bg-[#EAF4E0] font-chakra text-[1rem] pb-10">
+            <div className="max-w-[1000px] mx-auto mb-auto">
+                <Header />
+                <main>
+                    <Outlet />
+                </main>
+            </div>
+        </div>
     );
 };
 
