@@ -2,6 +2,14 @@ import { useState } from "react";
 import homepage from '../assets/HomePage.mp4';
 import login from '../assets/Login.png';
 import register from '../assets/Register.png';
+import sellerLanding from '../assets/SellerLandpage.mp4';
+import store1 from '../assets/StoreCreation1.png';
+import store2 from '../assets/StoreCreation2.png';
+import product1 from '../assets/Product.png';
+import product2 from '../assets/ProductNoVariants.png';
+import product3 from '../assets/ProductVariants.png';
+import errorHandler from '../assets/ErrorHandler.png';
+import database from '../assets/Database.svg';
 
 const Project = () => {
     const [project, setProject] = useState(1);
@@ -20,7 +28,7 @@ const Project = () => {
                 {project === 1 &&
                     <div className="mb-50">
                         <p className="mb-6">Link to the <a href='' target="_blank" className="italic underline hover:no-underline text-[#ae884c]">GitHub repository</a>.</p>
-                        <p className="italic text-[1.1rem]">This project is still in progress. See some picture <a href="#images" className="underline text-[#ae884c]">below</a>.</p>
+                        <p className="italic text-[1.1rem]">This project is still in progress. See some picture <a href="#images" className="underline text-[#ae884c]">below</a> and the database design <a href="#database" className="underline text-[#ae884c]">here</a>.</p>
                         <p className="mt-10 font-semibold text-xl">Full-stack web application designed to simulate a multi-role e-commerce platform, with dedicated UIs and functionalities for buyers, sellers and admins.</p>
                         <p className="mt-2 text-lg">Users can sign up as buyers or create a store to act as sellers, while the admin oversees the platform with extended management capabilities.</p>
                         <p className="mt-2 font-semibold text-xl">Key features include:</p>
@@ -71,6 +79,68 @@ const Project = () => {
                                 <img src={register} alt="register page" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Register page for users
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-12">
+                                <video 
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    preload="metadata"
+                                >
+                                    <source src={sellerLanding} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Seller Landing page 
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-12">
+                                <img src={store1} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Creation Store page 1
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-12">
+                                <img src={store2} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Creation Store page 2
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-12">
+                                <img src={product1} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Creation Product page
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-12">
+                                <img src={product2} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Creation Product with no variants
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-12">
+                                <img src={product3} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Creation Product with variants
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-12">
+                                <img src={errorHandler} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Error Page Handler
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div id="database">
+                            <p className="mt-8 mb-4 font-semibold text-xl">Database:</p>
+                            <p className="italic text-[1.1rem] mb-8">See the database on dbdiagram.io for a more closed look at the design <a href='https://dbdiagram.io/d/688a0188cca18e685c7271c6' target="_blank" className="italic underline hover:no-underline text-[#ae884c]">here</a>.</p>
+                            <figure className="mb-12">
+                                <img src={database} alt="store creation page 1" className="w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                    Database Design
                                 </figcaption>
                             </figure>
                         </div>
