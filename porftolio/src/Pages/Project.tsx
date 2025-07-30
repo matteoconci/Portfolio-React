@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaArrowUp } from 'react-icons/fa';
 import homepage from '../assets/HomePage.mp4';
 import login from '../assets/Login.png';
 import register from '../assets/Register.png';
@@ -16,6 +17,7 @@ const Project = () => {
 
     return (
         <div className="bg-[#EAF4E0] font-chakra max-w-[1000px] mx-auto my-0 text-[1rem]">
+            <FaArrowUp className="fixed text-3xl text-white bg-[#ae884c] p-1 rounded-lg left-[85rem] top-[90%] z-50" />
             <h2 className="text-[2rem] mt-8 mb-12 font-semibold">Projects</h2>
             <div>
                 <ul className="flex list-none justify-evenly text-3xl font-medium">
