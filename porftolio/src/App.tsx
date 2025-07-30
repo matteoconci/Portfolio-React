@@ -12,13 +12,16 @@ import Contact from "./Pages/Contact.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-      <Route path="/" element={<Root />}>
+      [<Route path="/" element={<Root />}>
         <Route index element={<Navigate to="/home" replace />} />
         <Route path="/home" element={<AboutMe />} />
         <Route path='/project' element={<Project />} />
         <Route path='/contact' element={<Contact />} />
-      </Route>
-  )
+      </Route>]
+  ),
+  {
+    basename: '/Portfolio-React',
+  }
 );
 
 function App() {
