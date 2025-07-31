@@ -18,7 +18,7 @@ const Project = () => {
     return (
         <div>
             <ArrowUp />
-            <h2 className="text-[2rem] mt-16 mb-12 font-semibold">Projects</h2>
+            <h2 className="text-[2rem] mt-16 mb-12 ml-2 font-semibold">Projects</h2>
             <div>
                 <ul className="flex list-none justify-evenly text-3xl font-medium">
                     <li className={`italic no-underline hover:cursor-pointer hover:underline ${project === 1 ? 'underline text-[#ae884c]' : ''}`} onClick={() => setProject(1)}>Ecommerce App Marketplace Shopp</li>

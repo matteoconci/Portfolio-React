@@ -9,12 +9,14 @@ import Root from "./Component/Root.tsx";
 import AboutMe from "./Pages/AboutMe.tsx";
 import Project from "./Pages/Project.tsx";
 import Contact from "./Pages/Contact.tsx";
+import Home from "./Pages/Home.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
       [<Route path="/" element={<Root />}>
         <Route index element={<Navigate to="/home" replace />} />
-        <Route path="/home" element={<AboutMe />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about-me" element={<AboutMe />} />
         <Route path='/project' element={<Project />} />
         <Route path='/contact' element={<Contact />} />
       </Route>]

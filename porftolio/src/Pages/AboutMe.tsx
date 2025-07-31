@@ -17,18 +17,8 @@ import cv from '../MATTEO CONCI.pdf';
 const AboutMe = () => {
     return (
         <div>
-            <h2 className="text-[2rem] font-semibold mt-16 mb-0">About Me</h2>
-            <div className="text-xl items-center">
-                <img className="max-w-72 m-auto" src={aboutMePhoto} alt="Matteo Conci" />
-                <p>
-                    Hi! I'm Matteo, a junior full-stack developer with a passion for building complete web applications. <br></br>
-                    I work on both front-end and back-end with great attention to detail, curiosity, and a constant drive to learn. <br></br>
-                    My goal is to grow professionally, learn new languages, and collaborate with people who share my passion. <br></br>
-                    To know more about me click <NavLink to='/about-me'>here</NavLink>.
-                </p>
-            </div>
-
-            <div className='flex flex-col gap-6'>
+            <h2 className="text-[2rem] font-semibold mt-16 mb-8 ml-2">About Me</h2>
+            <div className='flex flex-col gap-6 text-lg'>
                 <p>
                     Hi! I'm Matteo, a junior full-stack developer from Trentino Alto-Adige, Italy. My journey began in civil engineering, 
                     but during university I discovered programming through a basic Python course and realised that technology was my true path. 
@@ -64,7 +54,7 @@ const AboutMe = () => {
             </div>
 
             <div className="mt-12 mb-10">
-                <h2 className="text-[2rem] mb-7 font-semibold">Skills</h2>
+                <h2 className="text-[2rem] mb-7 ml-2 font-semibold">Skills</h2>
                 <p className='mb-12 text-xl'>Download my <a className='italic underline font-medium text-[#ae884c]' href={cv} download='CV_Matteo_Conci.pdf'>curriculum vitae</a>.</p>
                 <div>
                     <ul className="flex list-none justify-around">
