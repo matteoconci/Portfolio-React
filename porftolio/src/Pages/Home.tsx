@@ -6,7 +6,14 @@ const Home = () => {
         <div>
             <h2 className="text-[2rem] font-semibold mt-16 mb-16 ml-2">Home</h2>
             <div className="flex text-xl items-center">
-                <img className="max-w-85 rounded-2xl mr-20 ml-6" src={pfp} alt="Matteo Conci" />
+                <img className="max-w-85 rounded-2xl mr-20 ml-6" 
+                    src={pfp} 
+                    alt="Matteo Conci"
+                    loading="eager"
+                    fetchPriority="high"
+                    width={340}
+                    height={340} 
+                    />
                 <div>
                     <p>
                         Hi! I'm Matteo, a junior full-stack developer with a passion for building complete web applications. <br></br>
