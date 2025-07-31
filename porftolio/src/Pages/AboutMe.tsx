@@ -1,5 +1,3 @@
-import { NavLink } from 'react-router-dom';
-import aboutMePhoto from '../assets/AboutMe-Photo.jpeg';
 import css from '../assets/CSS-icon.png';
 import github from '../assets/GitHub-icon.png';
 import html from '../assets/HTML-icon.png';
