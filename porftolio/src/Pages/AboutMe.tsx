@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import aboutMePhoto from '../assets/AboutMe-Photo.jpeg';
 import css from '../assets/CSS-icon.png';
 import github from '../assets/GitHub-icon.png';
@@ -17,19 +18,49 @@ const AboutMe = () => {
     return (
         <div>
             <h2 className="text-[2rem] font-semibold mt-16 mb-0">About Me</h2>
-            <div className="flex text-xl items-center">
-                <div>
-                    <p>
-                    Hi! I'm Matteo, a junior web developer from Trentino Alto-Adige, Italy. I started my journey in Civil Engeegnering, but after learning some basic Python at the university
-                    I soon realised that this was my correct path, so after leaving my civil career, I started learning coding from the basic with HTML, CSS and Javascript. I'm looking forward to implement
-                    AI in my future projects and start learning machine learning and artificial intelligence.
-                    </p>
-                    <p>
-                    When I'm away from my pc, I really like to practise sport in my mountain or you can find me in front of the TV following motorsport. I also like photography and videogames.
-                    Looking forward to learning new things and improving my skills and meet new people to focus on new projects and with the same passion!
-                    </p>
-                </div>
-                <img className="max-w-72 ml-8" src={aboutMePhoto} alt="Matteo Conci" />
+            <div className="text-xl items-center">
+                <img className="max-w-72 m-auto" src={aboutMePhoto} alt="Matteo Conci" />
+                <p>
+                    Hi! I'm Matteo, a junior full-stack developer with a passion for building complete web applications. <br></br>
+                    I work on both front-end and back-end with great attention to detail, curiosity, and a constant drive to learn. <br></br>
+                    My goal is to grow professionally, learn new languages, and collaborate with people who share my passion. <br></br>
+                    To know more about me click <NavLink to='/about-me'>here</NavLink>.
+                </p>
+            </div>
+
+            <div className='flex flex-col gap-6'>
+                <p>
+                    Hi! I'm Matteo, a junior full-stack developer from Trentino Alto-Adige, Italy. My journey began in civil engineering, 
+                    but during university I discovered programming through a basic Python course and realised that technology was my true path. 
+                    I decided to change direction, leaving my civil career to fully dedicate myself to software development, 
+                    starting from the fundamentals of HTML, CSS and JavaScript. 
+                </p>
+                <p>
+                    Today, I work across both front-end and back-end development, 
+                    building complete web applications that combine intuitive user experiences with solid, efficient server-side logic.
+                    I’m continuously refining my problem-solving skills and, in the near future, 
+                    I aim to learn Rust to tackle more complex and high-performance projects.
+                </p>
+                <p>
+                    What I love most about coding is the freedom to shape ideas without limits—discovering new tools, 
+                    refining my process, and bringing concepts to life with care and precision.
+                </p>
+                <p>
+                    I consider myself a curious, proactive and open-minded person. I strongly believe in collaboration and teamwork, 
+                    because I think the best projects are born from the contribution of multiple perspectives.
+                    My goal is to grow professionally and continue working on stimulating projects that allow me to combine creativity, 
+                    logic and attention to the end user.
+                </p>
+                <p>   
+                    I approach every project with precision and a constant drive for improvement. 
+                    I enjoy turning ideas into well-crafted, 
+                    functional products and believe that success comes from open exchange of ideas and shared effort.
+                </p>
+                <p>
+                    Outside of coding, you’ll find me enjoying sports in the mountains, following motorsport events, 
+                    exploring photography or playing video games. I’m always eager to learn new things, grow my abilities, 
+                    and connect with passionate people to create impactful projects.
+                </p>
             </div>
 
             <div className="mt-12 mb-10">
