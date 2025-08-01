@@ -3,7 +3,7 @@ import ArrowUp from "../Component/ArrowUp";
 import homepage from '../assets/HomePage.webp';
 import login from '../assets/Login.png';
 import register from '../assets/Register.png';
-import sellerLanding from '../assets/SellerLandpage.webp';
+import sellerLanding from '../assets/seller-landpage.webp';
 import store1 from '../assets/StoreCreation1.png';
 import store2 from '../assets/StoreCreation2.png';
 import product1 from '../assets/Product.png';
