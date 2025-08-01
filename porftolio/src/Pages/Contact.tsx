@@ -7,7 +7,7 @@ import whatsapp from '../assets/whatsapp.png';
 const Contact = () => {
     return (
         <div className="mb-20">
-            <h2 className="text-[2rem] mt-16 mb-12 ml-2 font-semibold">Contacts</h2>
+            <h2 className="text-[2rem] mt-12 mb-12 ml-2 font-semibold">Contacts</h2>
             <p className="text-xl">
                 If you want to reach me out for future projects feel free to contact me.
             </p>

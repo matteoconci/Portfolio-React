@@ -4,7 +4,7 @@ import pfp from '../assets/AboutMe-Photo.jpeg';
 const Home = () => {
     return (
         <div>
-            <h2 className="text-[2rem] font-semibold mt-16 mb-16 ml-2">Home</h2>
+            <h2 className="text-[2rem] font-semibold mt-12 mb-15 ml-2">Home</h2>
             <div className="flex text-xl items-center">
                 <img className="max-w-85 rounded-2xl mr-20 ml-6" 
                     src={pfp} 

@@ -15,7 +15,7 @@ import cv from '../MATTEO CONCI.pdf';
 const AboutMe = () => {
     return (
         <div>
-            <h2 className="text-[2rem] font-semibold mt-16 mb-8 ml-2">About Me</h2>
+            <h2 className="text-[2rem] font-semibold mt-12 mb-8 ml-2">About Me</h2>
             <div className='flex flex-col gap-6 text-lg'>
                 <p>
                     Hi! I'm Matteo, a junior full-stack developer from Trentino Alto-Adige, Italy. My journey began in civil engineering, 
