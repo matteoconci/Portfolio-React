@@ -17,7 +17,8 @@ const Contact = () => {
                         <img className="max-w-[3.8rem] m-auto"
                             width={60}
                             height={60}
-                            loading='eager' 
+                            loading='eager'
+                            fetchPriority='high' 
                             src={mail} 
                             alt="Send an email" />
                     </a>
@@ -29,7 +30,8 @@ const Contact = () => {
                     <img className='max-w-8 m-auto'
                         width={60}
                         height={60}
-                        loading='eager'  
+                        loading='eager'
+                        fetchPriority='high'  
                         src={phone} 
                         alt="Phone contact" />
                     <div className='text-center mt-4 opacity-0 group-hover:opacity-100'>
@@ -41,7 +43,8 @@ const Contact = () => {
                         <img className='max-w-12 m-auto'
                             width={60}
                             height={60}
-                            loading='eager'   
+                            loading='eager'
+                            fetchPriority='high'   
                             src={whatsapp} 
                             alt="WhatsApp contact" />
                     </a>
@@ -54,7 +57,8 @@ const Contact = () => {
                         <img className="max-w-12 m-auto"
                             width={60}
                             height={60}
-                            loading='eager'   
+                            loading='eager'
+                            fetchPriority='high'   
                             src={github} 
                             alt="Github contact" />
                     </a>
@@ -67,7 +71,8 @@ const Contact = () => {
                         <img className="max-w-12 m-auto"
                             width={60}
                             height={60}
-                            loading='eager'   
+                            loading='eager'
+                            fetchPriority='high'   
                             src={linkedin} 
                             alt="Linkedin contact" />
                     </a>
