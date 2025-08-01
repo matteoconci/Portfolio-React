@@ -2,7 +2,7 @@ import css from '../assets/CSS-icon.png';
 import github from '../assets/GitHub-icon.png';
 import html from '../assets/HTML-icon.png';
 import javascript from '../assets/JavaScript-icon.png';
-import typescript from '../assets/Typescript-icon.svg';
+import typescript from '../assets/typescript-icon.svg';
 import tailwind from '../assets/Tailwind-Icon.svg';
 import sql from '../assets/SQL-icon.png';
 import redux from '../assets/Redux-icon.svg';
