@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ArrowUp from "../Component/ArrowUp";
-import homepage from '../assets/HomePage.mp4';
+import homepage from '../assets/HomePage.webp';
 import login from '../assets/Login.png';
 import register from '../assets/Register.png';
 import sellerLanding from '../assets/SellerLandpage.webp';
