@@ -9,7 +9,7 @@ import store2 from '../assets/StoreCreation2.png';
 import product1 from '../assets/Product.png';
 import product2 from '../assets/ProductNoVariants.png';
 import product3 from '../assets/ProductVariants.png';
-import errorHandler from '../assets/ErrorHandler.png';
+import errorHandler from '../assets/ErrorHandler.jpg';
 import database from '../assets/Database.svg';
 
 const Project = () => {
