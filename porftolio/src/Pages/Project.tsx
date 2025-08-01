@@ -74,13 +74,21 @@ const Project = () => {
                                 </figcaption>
                             </figure>
                             <figure className="mb-12">
-                                <img src={login} alt="login page" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <img src={login} 
+                                    alt="login page" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Login page for users
                                 </figcaption>
                             </figure>
                             <figure className="mb-12">
-                                <img src={register} alt="register page" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <img src={register} 
+                                    alt="register page"
+                                    width={896}
+                                    height={510} 
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Register page for users
                                 </figcaption>
@@ -104,37 +112,61 @@ const Project = () => {
                                 </figcaption>
                             </figure>
                             <figure className="mb-12">
-                                <img src={store1} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <img src={store1} 
+                                    alt="store creation page 1" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Store page 1
                                 </figcaption>
                             </figure>
                             <figure className="mb-12">
-                                <img src={store2} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <img src={store2} 
+                                    alt="store creation page 1" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Store page 2
                                 </figcaption>
                             </figure>
                             <figure className="mb-12">
-                                <img src={product1} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <img src={product1} 
+                                    alt="store creation page 1" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Product page
                                 </figcaption>
                             </figure>
                             <figure className="mb-12">
-                                <img src={product2} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <img src={product2} 
+                                    alt="store creation page 1" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Product with no variants
                                 </figcaption>
                             </figure>
                             <figure className="mb-12">
-                                <img src={product3} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <img src={product3} 
+                                    alt="store creation page 1" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Product with variants
                                 </figcaption>
                             </figure>
                             <figure className="mb-12">
-                                <img src={errorHandler} alt="store creation page 1" className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <img src={errorHandler} 
+                                    alt="store creation page 1" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Error Page Handler
                                 </figcaption>
@@ -144,7 +176,11 @@ const Project = () => {
                             <p className="mt-8 mb-4 font-semibold text-xl">Database:</p>
                             <p className="italic text-[1.1rem] mb-8">See the database on dbdiagram.io for a more closed look at the design <a href='https://dbdiagram.io/d/688a0188cca18e685c7271c6' target="_blank" className="italic underline hover:no-underline text-[#ae884c]">here</a>.</p>
                             <figure className="mb-12">
-                                <img src={database} alt="store creation page 1" className="w-full max-w-4xl mx-auto"/>
+                                <img src={database} 
+                                    alt="store creation page 1" 
+                                    width={896}
+                                    height={510}
+                                    className="w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Database Design
                                 </figcaption>
