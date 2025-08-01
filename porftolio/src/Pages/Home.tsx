@@ -6,7 +6,7 @@ const Home = () => {
         <div>
             <h2 className="text-[2rem] font-semibold mt-12 mb-15 ml-2">Home</h2>
             <div className="flex text-xl items-center">
-                <img className="max-w-85 rounded-2xl mr-20 ml-6" 
+                <img className="max-w-85 shadow-md rounded-2xl mr-20 ml-6" 
                     src={pfp} 
                     alt="Matteo Conci"
                     loading="eager"
