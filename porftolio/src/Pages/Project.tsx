@@ -78,6 +78,7 @@ const Project = () => {
                                     alt="login page" 
                                     width={896}
                                     height={510}
+                                    loading="eager"
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Login page for users
@@ -87,7 +88,8 @@ const Project = () => {
                                 <img src={register} 
                                     alt="register page"
                                     width={896}
-                                    height={510} 
+                                    height={510}
+                                    loading="eager" 
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Register page for users
@@ -116,6 +118,7 @@ const Project = () => {
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
+                                    loading="lazy"
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Store page 1
@@ -126,6 +129,7 @@ const Project = () => {
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
+                                    loading="lazy"
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Store page 2
@@ -136,6 +140,7 @@ const Project = () => {
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
+                                    loading="lazy"
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Product page
@@ -146,6 +151,7 @@ const Project = () => {
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
+                                    loading="lazy"
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Product with no variants
@@ -156,6 +162,7 @@ const Project = () => {
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
+                                    loading="lazy"
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
                                     Creation Product with variants

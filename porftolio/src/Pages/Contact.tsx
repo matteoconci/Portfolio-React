@@ -15,7 +15,9 @@ const Contact = () => {
                 <div className='group mt-8 mr-2'>
                     <a href="mailto:matteo.conci54@hotmail.it?subject=Request%20for%20Information&body=Hello,%20I%20would%20like%20more%20information.">
                         <img className="max-w-[3.8rem] m-auto"
-                            width={60} 
+                            width={60}
+                            height={60}
+                            loading='eager' 
                             src={mail} 
                             alt="Send an email" />
                     </a>
@@ -25,7 +27,9 @@ const Contact = () => {
                 </div>
                 <div className='mt-10 group mr-9'>
                     <img className='max-w-8 m-auto'
-                        width={60} 
+                        width={60}
+                        height={60}
+                        loading='eager'  
                         src={phone} 
                         alt="Phone contact" />
                     <div className='text-center mt-4 opacity-0 group-hover:opacity-100'>
@@ -35,7 +39,9 @@ const Contact = () => {
                 <div className='mt-10 group mr-12'>
                     <a href="https://wa.me/393451790418" target="_blank" rel="noopener noreferrer">
                         <img className='max-w-12 m-auto'
-                            width={60}  
+                            width={60}
+                            height={60}
+                            loading='eager'   
                             src={whatsapp} 
                             alt="WhatsApp contact" />
                     </a>
@@ -46,7 +52,9 @@ const Contact = () => {
                 <div className='group mt-10 mr-16'>
                     <a href="https://github.com/matteoconci" target="_blank">
                         <img className="max-w-12 m-auto"
-                            width={60}  
+                            width={60}
+                            height={60}
+                            loading='eager'   
                             src={github} 
                             alt="Github contact" />
                     </a>
@@ -57,7 +65,9 @@ const Contact = () => {
                 <div className='group mt-10 mr-15'>
                     <a href="#" target="_blank">
                         <img className="max-w-12 m-auto"
-                            width={60}  
+                            width={60}
+                            height={60}
+                            loading='eager'   
                             src={linkedin} 
                             alt="Linkedin contact" />
                     </a>
