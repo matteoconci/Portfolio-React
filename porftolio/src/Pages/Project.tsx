@@ -93,6 +93,8 @@ const Project = () => {
                                     loop
                                     playsInline
                                     preload="auto"
+                                    height={900}
+                                    width={900}
                                 >
                                     <source src={sellerLanding} type="video/mp4" />
                                     Your browser does not support the video tag.
