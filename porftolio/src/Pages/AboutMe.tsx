@@ -19,7 +19,7 @@ const AboutMe = () => {
             <div className='flex flex-col gap-6 text-lg'>
                 <p>
                     Hi! I'm Matteo, a junior full-stack developer from Trentino Alto-Adige, Italy. My journey began in civil engineering, 
-                    but during university I discovered programming through a basic Python course and realised that technology was my true path. 
+                    but during university I discovered programming through a basic Python course and realised that this was my true path. 
                     I decided to change direction, leaving my civil career to fully dedicate myself to software development, 
                     starting from the fundamentals of HTML, CSS and JavaScript. 
                 </p>
