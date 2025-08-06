@@ -67,7 +67,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='group mt-10 mr-15'>
-                    <a href="#" target="_blank">
+                    <a href="https://linkedin.com/in/matteoconci" target="_blank">
                         <img className="max-w-12 m-auto"
                             width={60}
                             height={60}
@@ -77,7 +77,7 @@ const Contact = () => {
                             alt="Linkedin contact" />
                     </a>
                     <div className='text-center mt-4 opacity-0 group-hover:opacity-100'>
-                        <a href="" className='italic hover:underline' target="_blank">Matteo Conci</a>
+                        <a href="https://linkedin.com/in/matteoconci" className='italic hover:underline' target="_blank">Matteo Conci</a>
                     </div>
                 </div>
             </div>
