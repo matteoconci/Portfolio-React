@@ -19,35 +19,30 @@ const AboutMe = () => {
             <div className='flex flex-col gap-6 text-lg'>
                 <p>
                     Hi! I'm Matteo, a junior full-stack developer from Trentino Alto-Adige, Italy. My journey began in civil engineering, 
-                    but during university I discovered programming through a basic Python course and realised that this was my true path. 
+                    but during university I discovered programming through a basic Python class and realised that this was my true path. 
                     I decided to change direction, leaving my civil career to fully dedicate myself to software development, 
                     starting from the fundamentals of HTML, CSS and JavaScript. 
                 </p>
                 <p>
                     Today, I work across both front-end and back-end development, 
-                    building complete web applications that combine intuitive user experiences with solid, efficient server-side logic.
+                    building complete web applications that combine intuitive user experiences with solid server-side logic.
                     I’m continuously refining my problem-solving skills and, in the near future, 
-                    I aim to learn Rust to tackle more complex and high-performance projects.
+                    I aim to learn new lenguages to tackle more complex and high-performance projects.
                 </p>
                 <p>
-                    What I love most about coding is the freedom to shape ideas without limits—discovering new tools, 
+                    What I love most about coding is the freedom to shape ideas without limits, discovering new tools by doing it, 
                     refining my process, and bringing concepts to life with care and precision.
                 </p>
                 <p>
-                    I consider myself a curious, proactive and open-minded person. I strongly believe in collaboration and teamwork, 
-                    because I think the best projects are born from the contribution of multiple perspectives.
-                    My goal is to grow professionally and continue working on stimulating projects that allow me to combine creativity, 
+                    I consider myself a curious and open-minded person. I believe in collaboration and teamwork and
+                    I think the best projects are born from the union of perspectives and ideas from different minds.
+                    My goal is to grow professionally and working on stimulating projects that allow me to combine creativity, 
                     logic and attention to the end user.
                 </p>
-                <p>   
-                    I approach every project with precision and a constant drive for improvement. 
-                    I enjoy turning ideas into well-crafted, 
-                    functional products and believe that success comes from open exchange of ideas and shared effort.
-                </p>
                 <p>
-                    Outside of coding, you’ll find me enjoying sports in the mountains, following motorsport events, 
-                    exploring photography or playing video games. I’m always eager to learn new things, grow my abilities, 
-                    and connect with passionate people to create impactful projects.
+                    Outside of coding, you can find me enjoying sports in the mountains, following motorsport events, 
+                    exploring photography or sayling. I’m always open to learn new skills 
+                    and connect with passionate people to create new projects.
                 </p>
             </div>
 

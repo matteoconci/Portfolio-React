@@ -23,7 +23,7 @@ const ArrowUp: React.FC = () => {
         <button 
             onClick={scrollToTop}
             aria-label="scroll to top"
-            className="fixed text-3xl text-white bg-[#ae884c] p-1 rounded-lg left-[85rem] top-[90%] z-50 hover:cursor-pointer hover:text-black">
+            className="fixed text-3xl text-white bg-[#ae884c] p-1 rounded-lg left-[95%] top-[90%] z-50 hover:cursor-pointer hover:text-black">
             <FaArrowUp />
         </button>
     );
