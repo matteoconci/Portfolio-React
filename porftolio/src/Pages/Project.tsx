@@ -29,12 +29,12 @@ const Project = () => {
             <div className="sm:text-xl sm:mt-10 mt-6">
                 {project === 1 &&
                     <div className="mb-50 w-[95%] sm:w-[100%] mx-auto">
-                        <p className="mb-6 text-center italic">Link to the <a href='https://github.com/orgs/Reddit-Clone-App-Project/repositories?' target="_blank" className="underline hover:no-underline text-[#ae884c]">GitHub repository</a>.</p>
-                        <p className="italic sm:text-[1.1rem] text-center">This project is still in progress. See some picture <a href="#images" className="underline text-[#ae884c]">below</a> and the database design <a href="#database" className="underline text-[#ae884c]">here</a>.</p>
-                        <p className="sm:mt-10 mt-6 mx-auto sm:mx-0 font-semibold sm:text-xl text-justify sm:text-left">Full-stack web application designed to simulate a multi-role e-commerce platform, with dedicated UIs and functionalities for buyers, sellers and admins.</p>
-                        <p className="mt-2 sm:text-lg text-justify sm:text-left">Users can sign up as buyers or create a store to act as sellers, while the admin oversees the platform with extended management capabilities.</p>
-                        <p className="mt-2 font-semibold sm:text-xl">Key features include:</p>
-                        <ol className="list-disc ml-10 sm:text-lg">
+                        <p className="mb-6 text-center text-sm sm:text-xl italic">Link to the <a href='https://github.com/orgs/Reddit-Clone-App-Project/repositories?' target="_blank" className="underline hover:no-underline text-[#ae884c]">GitHub repository</a>.</p>
+                        <p className="italic sm:text-xl text-sm text-center">This project is still in progress. See some picture <a href="#images" className="underline text-[#ae884c]">below</a> and the database design <a href="#database" className="underline text-[#ae884c]">here</a>.</p>
+                        <p className="sm:mt-10 mt-4 mx-auto sm:mx-0 font-semibold sm:text-xl text-[0.9rem] text-justify sm:text-left">Full-stack web application designed to simulate a multi-role e-commerce platform, with dedicated UIs and functionalities for buyers, sellers and admins.</p>
+                        <p className="mt-2 sm:text-lg text-sm text-justify sm:text-left">Users can sign up as buyers or create a store to act as sellers, while the admin oversees the platform with extended management capabilities.</p>
+                        <p className="sm:mt-2 mt-4 font-semibold text-[0.9rem] sm:text-xl">Key features include:</p>
+                        <ol className="list-disc ml-5 sm:ml-10 sm:text-lg text-sm">
                             <li>User registration, login, and logout;</li>
                             <li>Role-based authentication and authorization (buyer, seller, admin);</li>
                             <li>Full CRUD functionality for products and its variants;</li>
@@ -44,8 +44,8 @@ const Project = () => {
                             <li>Store creation and management for sellers;</li>
                             <li>Secure backend with middleware and validations;</li>
                         </ol>
-                        <p className="mt-4 font-semibold sm:text-xl">Main technologies used:</p>
-                        <ol className="list-disc ml-10 sm:text-lg">
+                        <p className="mt-4 font-semibold text-[0.9rem] sm:text-xl">Main technologies used:</p>
+                        <ol className="list-disc ml-5 sm:ml-10 text-sm sm:text-lg">
                             <li><span className="font-semibold">Frontend</span>: JavaScript, TypeScript, React, Redux Toolkit, Tailwind CSS;</li>
                             <li><span className="font-semibold">Backend</span>: Node.js, Express.js, PostgreSQL, RESTful API architecture;</li>
                             <li><span className="font-semibold">Authentication & Security</span>: JWT, Bcrypt, CORS, Helmet, Rate Limiter, Validator.js;</li>
@@ -54,7 +54,7 @@ const Project = () => {
                             <li><span className="font-semibold">Additional</span>: Fully responsive design and modular architecture;</li>
                         </ol>
                         <div id="images" className="text-sm sm:text[1rem] text-center text-[#ae884c]">
-                            <p className="mb-4 mt-8 sm:my-8 font-semibold text-[1rem] sm:text-xl">Pages:</p>
+                            <p className="mb-4 mt-8 sm:my-8 font-semibold text-[0.9rem] sm:text-[1rem] sm:text-xl">Pages:</p>
                             <figure className="mb-8 sm:mb-12">
                                 <video 
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"
