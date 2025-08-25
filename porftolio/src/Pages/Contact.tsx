@@ -8,10 +8,10 @@ const Contact = () => {
     return (
         <div className="mb-20">
             <h2 className="hidden sm:block text-[2rem] mt-12 mb-12 ml-2 font-semibold">Contacts</h2>
-            <p className="sm:text-xl">
+            <p className="sm:text-xl text-center">
                 If you want to reach me out for future projects feel free to contact me.
             </p>
-            <div className="flex items-center justify-center mt-4 sm:mt-12">
+            <div className="flex items-center justify-center mt-4 sm:mt-10">
                 <div className='group mt-8 sm:mr-2'>
                     <a href="mailto:matteo.conci54@hotmail.it?subject=Request%20for%20Information&body=Hello,%20I%20would%20like%20more%20information.">
                         <img className="max-w-[3.8rem] m-auto w-6 h-6 sm:w-14 sm:h-14"
