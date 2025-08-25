@@ -53,9 +53,9 @@ const Project = () => {
                             <li><span className="font-semibold">Project Management & Deployment</span>: GitHub, Jira, Supabase;</li>
                             <li><span className="font-semibold">Additional</span>: Fully responsive design and modular architecture;</li>
                         </ol>
-                        <div id="images">
-                            <p className="my-8 font-semibold sm:text-xl">Pages:</p>
-                            <figure className="mb-12">
+                        <div id="images" className="text-sm sm:text[1rem] text-center text-[#ae884c]">
+                            <p className="mb-4 mt-8 sm:my-8 font-semibold text-[1rem] sm:text-xl">Pages:</p>
+                            <figure className="mb-8 sm:mb-12">
                                 <video 
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"
                                     autoPlay
@@ -69,31 +69,31 @@ const Project = () => {
                                     <source src={homepage} type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Animated homepage with promotional banner
                                 </figcaption>
                             </figure>
-                            <figure className="mb-12">
+                            <figure className="mb-8 sm:mb-12">
                                 <img src={login} 
                                     alt="login page" 
                                     width={896}
                                     height={510}
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Login page for users
                                 </figcaption>
                             </figure>
-                            <figure className="mb-12">
+                            <figure className="mb-8 sm:mb-12">
                                 <img src={register} 
                                     alt="register page"
                                     width={896}
                                     height={510} 
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Register page for users
                                 </figcaption>
                             </figure>
-                            <figure className="mb-12">
+                            <figure className="mb-8 sm:mb-12">
                                 <video 
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"
                                     autoPlay
@@ -107,81 +107,81 @@ const Project = () => {
                                     <source src={sellerLanding} type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Seller Landing page 
                                 </figcaption>
                             </figure>
-                            <figure className="mb-12">
+                            <figure className="mb-8 sm:mb-12">
                                 <img src={store1} 
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Creation Store page 1
                                 </figcaption>
                             </figure>
-                            <figure className="mb-12">
+                            <figure className="mb-8 sm:mb-12">
                                 <img src={store2} 
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Creation Store page 2
                                 </figcaption>
                             </figure>
-                            <figure className="mb-12">
+                            <figure className="mb-8 sm:mb-12">
                                 <img src={product1} 
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Creation Product page
                                 </figcaption>
                             </figure>
-                            <figure className="mb-12">
+                            <figure className="mb-8 sm:mb-12">
                                 <img src={product2} 
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Creation Product with no variants
                                 </figcaption>
                             </figure>
-                            <figure className="mb-12">
+                            <figure className="mb-8 sm:mb-12">
                                 <img src={product3} 
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Creation Product with variants
                                 </figcaption>
                             </figure>
-                            <figure className="mb-12">
+                            <figure className="mb-8 sm:mb-12">
                                 <img src={errorHandler} 
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3">
                                     Error Page Handler
                                 </figcaption>
                             </figure>
                         </div>
                         <div id="database">
-                            <p className="mt-8 mb-4 font-semibold text-xl">Database:</p>
-                            <p className="italic text-[1.1rem] mb-8">See the database on dbdiagram.io for a more closed look at the design <a href='https://dbdiagram.io/d/688a0188cca18e685c7271c6' target="_blank" className="italic underline hover:no-underline text-[#ae884c]">here</a>.</p>
+                            <p className="mt-8 mb-4 font-semibold text-[1rem] sm:text-xl">Database:</p>
+                            <p className="italic sm:text-[1.1rem] text-sm mb-8">See the database on dbdiagram.io for a more closed look at the design <a href='https://dbdiagram.io/d/688a0188cca18e685c7271c6' target="_blank" className="italic underline hover:no-underline text-[#ae884c]">here</a>.</p>
                             <figure className="mb-12">
                                 <img src={database} 
                                     alt="store creation page 1" 
                                     width={896}
                                     height={510}
                                     className="w-full max-w-4xl mx-auto"/>
-                                <figcaption className="mt-3 text-center text-[1rem] text-[#ae884c]">
+                                <figcaption className="mt-3 text-center text-sm sm:text-[1rem] text-[#ae884c]">
                                     Database Design
                                 </figcaption>
                             </figure>
