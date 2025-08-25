@@ -10,7 +10,8 @@ import react from '../assets/React-icon.svg';
 import restAPI from '../assets/RestAPI-icon.svg';
 import express from '../assets/Express.js-icon.png';
 import node from '../assets/Node.js-icon.svg';
-import cv from '../MATTEO CONCI.pdf';
+import cv from '../MATTEO-CONCI.pdf';
+import cvEng from '../MATTEO-CONCI-ENG.pdf';
 
 const AboutMe = () => {
     return (
@@ -48,7 +49,7 @@ const AboutMe = () => {
 
             <div className="sm:mt-12 mt-8 mb-10">
                 <h2 className="sm:text-[2rem] mb-1 sm:mb-7 ml-2 font-semibold">Skills</h2>
-                <p className='mb-4 sm:mb-12 text-[0.8rem] sm:text-xl text-center'>Download my <a className='italic underline font-medium text-[#ae884c]' href={cv} download='CV_Matteo_Conci.pdf'>curriculum vitae</a>.</p>
+                <p className='mb-4 sm:mb-12 text-[0.8rem] sm:text-xl text-center'>Download my curriculum vitae <a className='italic underline font-medium text-[#ae884c]' href={cv} download='CV_Matteo_Conci_Ita.pdf'>italian version</a> or <a className='italic underline font-medium text-[#ae884c]' href={cvEng} download='CV_Matteo_Conci_Eng.pdf'>english version</a>.</p>
                 <div className='mx-2'>
                     <ul className="flex text-[0.6rem] sm:text-xl italic sm:font-medium list-none justify-around">
                         <li className="flex items-center">
