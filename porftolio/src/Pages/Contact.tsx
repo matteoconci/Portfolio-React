@@ -7,16 +7,14 @@ import whatsapp from '../assets/whatsapp.png';
 const Contact = () => {
     return (
         <div className="mb-20">
-            <h2 className="text-[2rem] mt-12 mb-12 ml-2 font-semibold">Contacts</h2>
-            <p className="text-xl">
+            <h2 className="hidden sm:block text-[2rem] mt-12 mb-12 ml-2 font-semibold">Contacts</h2>
+            <p className="sm:text-xl">
                 If you want to reach me out for future projects feel free to contact me.
             </p>
-            <div className="flex items-center justify-center mt-12">
-                <div className='group mt-8 mr-2'>
+            <div className="flex items-center justify-center mt-4 sm:mt-12">
+                <div className='group mt-8 sm:mr-2'>
                     <a href="mailto:matteo.conci54@hotmail.it?subject=Request%20for%20Information&body=Hello,%20I%20would%20like%20more%20information.">
-                        <img className="max-w-[3.8rem] m-auto"
-                            width={60}
-                            height={60}
+                        <img className="max-w-[3.8rem] m-auto w-6 h-6 sm:w-14 sm:h-14"
                             loading='eager'
                             fetchPriority='high' 
                             src={mail} 
@@ -26,10 +24,8 @@ const Contact = () => {
                         matteo.conci54@hotmail.it
                     </div>
                 </div>
-                <div className='mt-10 group mr-9'>
-                    <img className='max-w-8 m-auto'
-                        width={60}
-                        height={60}
+                <div className='mt-10 group sm:mr-9'>
+                    <img className='max-w-8 m-auto w-6 h-6 sm:w-14 sm:h-14'
                         loading='eager'
                         fetchPriority='high'  
                         src={phone} 
@@ -38,11 +34,9 @@ const Contact = () => {
                         +39 345 1790418
                     </div>
                 </div>
-                <div className='mt-10 group mr-12'>
+                <div className='mt-10 group sm:mr-12'>
                     <a href="https://wa.me/393451790418" target="_blank" rel="noopener noreferrer">
-                        <img className='max-w-12 m-auto'
-                            width={60}
-                            height={60}
+                        <img className='max-w-12 m-auto w-6 h-6 sm:w-14 sm:h-14'
                             loading='eager'
                             fetchPriority='high'   
                             src={whatsapp} 
@@ -52,11 +46,9 @@ const Contact = () => {
                         +39 345 1790418
                     </div>
                 </div>
-                <div className='group mt-10 mr-16'>
+                <div className='group mt-10 sm:mr-16'>
                     <a href="https://github.com/matteoconci" target="_blank">
-                        <img className="max-w-12 m-auto"
-                            width={60}
-                            height={60}
+                        <img className="max-w-12 m-auto w-6 h-6 sm:w-14 sm:h-14"
                             loading='eager'
                             fetchPriority='high'   
                             src={github} 
@@ -66,11 +58,9 @@ const Contact = () => {
                         <a href="https://github.com/matteoconci" className='italic hover:underline' target="_blank">Matteo Conci</a>
                     </div>
                 </div>
-                <div className='group mt-10 mr-15'>
+                <div className='group mt-10 sm:mr-15'>
                     <a href="https://linkedin.com/in/matteoconci" target="_blank">
-                        <img className="max-w-12 m-auto"
-                            width={60}
-                            height={60}
+                        <img className="max-w-12 m-auto w-6 h-6 sm:w-14 sm:h-14"
                             loading='eager'
                             fetchPriority='high'   
                             src={linkedin} 

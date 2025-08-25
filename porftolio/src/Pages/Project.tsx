@@ -22,7 +22,7 @@ const Project = () => {
             <div>
                 <ul className="sm:flex list-none justify-evenly sm:text-3xl font-medium text-center">
                     <li className={`italic no-underline hover:cursor-pointer hover:underline ${project === 1 ? 'underline text-[#ae884c]' : ''}`} onClick={() => setProject(1)}>Ecommerce App Marketplace Shopp</li>
-                    <li className="hidden sm:block">|</li>
+                    <li className="hidden">|</li>
                     <li className={`hidden italic no-underline hover:cursor-pointer hover:underline ${project === 2 ? 'underline text-[#ae884c]' : ''}`} onClick={() => setProject(2)}>Reddit Clone</li>
                 </ul>
             </div>
