@@ -15,8 +15,8 @@ import cv from '../MATTEO CONCI.pdf';
 const AboutMe = () => {
     return (
         <div>
-            <h2 className="text-[2rem] font-semibold mt-12 mb-8 ml-2">About Me</h2>
-            <div className='flex flex-col gap-6 text-lg'>
+            <h2 className="hidden sm:block text-[2rem] font-semibold mt-12 mb-8 ml-2">About Me</h2>
+            <div className='flex flex-col gap-3 sm:gap-6 text-[0.75rem] sm:text-lg text-justify m-auto mx-3'>
                 <p>
                     Hi! I'm Matteo, a junior full-stack developer from Trentino Alto-Adige, Italy. My journey began in civil engineering, 
                     but during university I discovered programming through a basic Python class and realised that this was my true path. 
@@ -46,61 +46,61 @@ const AboutMe = () => {
                 </p>
             </div>
 
-            <div className="mt-12 mb-10">
-                <h2 className="text-[2rem] mb-7 ml-2 font-semibold">Skills</h2>
-                <p className='mb-12 text-xl'>Download my <a className='italic underline font-medium text-[#ae884c]' href={cv} download='CV_Matteo_Conci.pdf'>curriculum vitae</a>.</p>
-                <div>
-                    <ul className="flex list-none justify-around">
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-11 mr-4" src={html} alt="HTML" />
+            <div className="sm:mt-12 mt-8 mb-10">
+                <h2 className="sm:text-[2rem] mb-1 sm:mb-7 ml-2 font-semibold">Skills</h2>
+                <p className='mb-4 sm:mb-12 text-[0.8rem] sm:text-xl text-center'>Download my <a className='italic underline font-medium text-[#ae884c]' href={cv} download='CV_Matteo_Conci.pdf'>curriculum vitae</a>.</p>
+                <div className='mx-2'>
+                    <ul className="flex text-[0.6rem] sm:text-xl italic sm:font-medium list-none justify-around">
+                        <li className="flex items-center">
+                            <img className="w-5 sm:w-11 mr-2 sm:mr-4" src={html} alt="HTML" />
                             <span>HTML</span>
                         </li>
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-11 mr-4" src={css} alt="CSS" />
+                        <li className="flex items-center">
+                            <img className="w-5 sm:w-11 mr-2 sm:mr-4" src={css} alt="CSS" />
                             <span>CSS</span>
                         </li>
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-12 mr-4" src={tailwind} alt="GitHub" />
+                        <li className="flex items-center">
+                            <img className="w-6 sm:w-11 mr-2 sm:mr-4" src={tailwind} alt="GitHub" />
                             <span>TailWind CSS</span>
                         </li>
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-12 mr-4" src={javascript} alt="JavaScript" />
+                        <li className="flex items-center">
+                            <img className="w-5 sm:w-11 mr-2 sm:mr-4" src={javascript} alt="JavaScript" />
                             <span>JavaScript</span>
                         </li>
                     </ul>
-                    <ul className="flex list-none justify-around mt-8">
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-11 mr-4" src={typescript} alt="GitHub" />
+                    <ul className="flex list-none text-[0.6rem] sm:text-xl italic sm:font-medium justify-around mt-4 sm:mt-8">
+                        <li className="flex items-center">
+                            <img className="w-4 sm:w-11 mr-2 sm:mr-4" src={typescript} alt="GitHub" />
                             <span>TypeScript</span>
                         </li>
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-12 mr-4" src={react} alt="GitHub" />
+                        <li className="flex items-center">
+                            <img className="w-5 sm:w-11 mr-2 sm:mr-4" src={react} alt="GitHub" />
                             <span>React</span>
                         </li>
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-11 mr-4" src={redux} alt="GitHub" />
+                        <li className="flex items-center">
+                            <img className="w-5 sm:w-11 mr-2 sm:mr-4" src={redux} alt="GitHub" />
                             <span>Redux</span>
                         </li>
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-18 mr-4" src={node} alt="GitHub" />
+                        <li className="flex items-center">
+                            <img className="w-6 sm:w-11 mr-2 sm:mr-4" src={node} alt="GitHub" />
                             <span>Node.js</span>
                         </li>
                     </ul>
-                    <ul className="flex list-none justify-around mt-8">
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-10 mr-4" src={express} alt="GitHub" />
+                    <ul className="flex list-none text-[0.6rem] sm:text-xl italic sm:font-medium justify-around mt-4 sm:mt-8">
+                        <li className="flex items-center">
+                            <img className="w-4 sm:w-11 mr-2 sm:mr-4" src={express} alt="GitHub" />
                             <span>Express.js</span>
                         </li>
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-12 mr-4" src={sql} alt="GitHub" />
+                        <li className="flex items-center">
+                            <img className="w-5 sm:w-11 mr-2 sm:mr-4" src={sql} alt="GitHub" />
                             <span>SQL Database</span>
                         </li>
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-12 mr-4" src={restAPI} alt="GitHub" />
+                        <li className="flex items-center">
+                            <img className="w-5 sm:w-11 mr-2 sm:mr-4" src={restAPI} alt="GitHub" />
                             <span>RestAPI</span>
                         </li>
-                        <li className="text-xl italic font-medium flex items-center">
-                            <img className="w-12 mr-4" src={github} alt="GitHub" />
+                        <li className="flex items-center">
+                            <img className="w-5 sm:w-11 mr-2 sm:mr-4" src={github} alt="GitHub" />
                             <span>GitHub</span>
                         </li>
                     </ul>

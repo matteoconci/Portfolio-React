@@ -15,7 +15,7 @@ const Home = () => {
                     height={340} 
                     />
                 <div>
-                    <p className="text-center mx-3 text-[0.7rem]">
+                    <p className="text-center mx-3 text-[0.75rem]">
                         Hi! I'm Matteo, a junior full-stack developer with a passion for building complete web applications. <br></br>
                         I work on both front-end and back-end with great attention to detail, curiosity, and a constant drive to learn. <br></br>
                         My goal is to grow professionally, learn new languages, and collaborate with people who share my passion. <br></br>
