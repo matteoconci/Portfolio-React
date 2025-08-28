@@ -12,6 +12,7 @@ import express from '../assets/Express.js-icon.png';
 import node from '../assets/Node.js-icon.svg';
 import cv from '../MATTEO-CONCI.pdf';
 import cvEng from '../MATTEO-CONCI-ENG.pdf';
+import Codecademy from '../Codecademy.pdf';
 
 const AboutMe = () => {
     return (
@@ -105,6 +106,13 @@ const AboutMe = () => {
                     </ul>
                 </div>
             </div>
+
+            <div className="sm:mt-12 mt-8 mb-30">
+                <h2 className="sm:text-[2rem] mb-3 sm:mb-9 ml-2 font-semibold">Certification</h2>
+                <p className='mb-2 sm:mb-4 text-[0.7rem] sm:text-xl text-center'>Full Stack Developer Certification - Codecademy (2025)</p>
+                <p className='mb-2 sm:mb-4 text-[0.6rem] sm:text-lg text-center'>(Coursework & projects, 500+ hours)</p>
+                <p className='text-center text-[0.6rem] sm:text-lg'><a className='italic underline font-medium text-[#ae884c]' href={Codecademy} target='_blank' rel="noopener noreferrer">View Certification</a></p>
+            </div>        
         </div>
     );
 };
