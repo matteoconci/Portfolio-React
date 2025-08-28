@@ -16,9 +16,9 @@ const Home = () => {
                     />
                 <div>
                     <p className="text-center sm:text-left mx-3 text-[0.75rem] sm:text-2xl">
-                        Hi! I'm Matteo, a junior full-stack developer with a passion for building complete web applications. <br></br>
-                        I work on both front-end and back-end with great attention to detail, curiosity, and a constant drive to learn. <br></br>
-                        My goal is to grow professionally, learn new programming languages, and collaborate with people who share my passion. <br></br>
+                        Hi! I'm Matteo, a junior Full-Stack Developer from Italy who loves turning idea into real web applications. <br></br>
+                        I work across front-end and back-end with curiosity, ambition, and discipline, always motivated to improve. <br></br>
+                        I’m driven to keep growing as a developer and to contribute with dedication and teamwork. <br></br>
                     </p>
                     <p className="italic mt-5 sm:mt-8 text-center text-[0.8rem] sm:text-xl">To know more about me click <NavLink to='/about-me' className='text-[#ae884c] underline hover:no-underline'>here</NavLink>.</p>
                 </div>

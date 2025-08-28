@@ -19,31 +19,29 @@ const AboutMe = () => {
             <h2 className="hidden sm:block text-[2rem] font-semibold mt-12 mb-8 ml-2">About Me</h2>
             <div className='flex flex-col gap-3 sm:gap-6 text-[0.75rem] sm:text-lg text-justify m-auto mx-3'>
                 <p>
-                    Hi! I'm Matteo, a junior full-stack developer from Trentino Alto-Adige, Italy. My journey began in civil engineering, 
-                    but during university I discovered programming through a basic Python class and realised that this was my true path. 
-                    I decided to change direction, leaving my civil career to fully dedicate myself to software development, 
-                    starting from the fundamentals of HTML, CSS and JavaScript. 
+                    Hi! I’m Matteo, a junior full-stack developer from Trentino Alto-Adige, Italy.
+                    My journey began in civil engineering, but during university 
+                    I discovered programming through a Python class and realised that this was my true path.
+                    I decided to change direction and fully dedicate myself to software development, 
+                    starting from the fundamentals of web development.
                 </p>
                 <p>
-                    Today, I work across both front-end and back-end development, 
-                    building complete web applications that combine intuitive user experiences with solid server-side logic.
-                    I’m continuously refining my problem-solving skills and, in the near future, 
-                    I aim to learn new lenguages to tackle more complex and high-performance projects.
+                    Since then, I have been working across both front-end and back-end, building complete web applications
+                    — from database design to responsive UI — using technologies like TypeScript, React, Redux Toolkit, 
+                    Node.js, Express and PostgreSQL. These experiences allowed me to improve my problem-solving skills, 
+                    refine my workflow and learn how to deliver projects with precision and care.
                 </p>
                 <p>
-                    What I love most about coding is the freedom to shape ideas without limits, discovering new tools by doing it, 
-                    refining my process, and bringing concepts to life with care and precision.
+                    What I love most about coding is the freedom to transform ideas into real products without limits, 
+                    while constantly improving my skills and discovering new tools. 
+                    I consider myself ambitious, disciplined, motivated and focused on teamwork: 
+                    I believe the best results come from collaboration and the exchange of different perspectives.
                 </p>
                 <p>
-                    I consider myself a curious and open-minded person. I believe in collaboration and teamwork and
-                    I think the best projects are born from the union of perspectives and ideas from different minds.
-                    My goal is to grow professionally and working on stimulating projects that allow me to combine creativity, 
-                    logic and attention to the end user.
-                </p>
-                <p>
-                    Outside of coding, you can find me enjoying sports in the mountains, following motorsport events, 
-                    exploring photography or sayling. I’m always open to learn new skills 
-                    and connect with passionate people to create new projects.
+                    Beyond coding, I have practiced endurance sports at a competitive level and 
+                    I still enjoy training in the mountains, with a passion for photography and sailing. 
+                    These passions taught me resilience, discipline and attention to detail — 
+                    qualities I also bring into software development.
                 </p>
             </div>
 
