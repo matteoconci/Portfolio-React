@@ -18,7 +18,7 @@ const Home = () => {
                     <p className="text-center sm:text-left mx-3 text-[0.75rem] sm:text-2xl">
                         Hi! I'm Matteo, a junior full-stack developer with a passion for building complete web applications. <br></br>
                         I work on both front-end and back-end with great attention to detail, curiosity, and a constant drive to learn. <br></br>
-                        My goal is to grow professionally, learn new languages, and collaborate with people who share my passion. <br></br>
+                        My goal is to grow professionally, learn new programming languages, and collaborate with people who share my passion. <br></br>
                     </p>
                     <p className="italic mt-5 sm:mt-8 text-center text-[0.8rem] sm:text-xl">To know more about me click <NavLink to='/about-me' className='text-[#ae884c] underline hover:no-underline'>here</NavLink>.</p>
                 </div>
