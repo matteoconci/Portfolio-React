@@ -1,16 +1,21 @@
 import { useState } from "react";
 import ArrowUp from "../Component/ArrowUp";
 import homepage from '../assets/HomePage.webp';
-import login from '../assets/Login.png';
-import register from '../assets/Register.png';
+import login from '../assets/Login.webp';
+import register from '../assets/Register.webp';
 import sellerLanding from '../assets/seller-landpage.webp';
-import store1 from '../assets/StoreCreation1.png';
-import store2 from '../assets/StoreCreation2.png';
-import product1 from '../assets/Product.png';
-import product2 from '../assets/ProductNoVariants.png';
-import product3 from '../assets/ProductVariants.png';
-import errorHandler from '../assets/ErrorHandler.jpg';
-import database from '../assets/Database.svg';
+import store1 from '../assets/StoreCreation1.webp';
+import store2 from '../assets/StoreCreation2.webp';
+import product1 from '../assets/Create.webp';
+import product2 from '../assets/ProductNoVariants.webp';
+import product3 from '../assets/ProductVariants.webp';
+import errorHandler from '../assets/ErrorHandler.webp';
+import database from '../assets/Database.webp';
+import product from '../assets/Product.webp';
+import category from '../assets/Category.webp';
+import cart from '../assets/Cart.webp';
+import profile from '../assets/Profile.webp';
+import details from '../assets/Product_details.webp';
 
 const Project = () => {
     const [project, setProject] = useState(1);
@@ -40,7 +45,7 @@ const Project = () => {
                             <li>Full CRUD functionality for products and its variants;</li>
                             <li>Dedicated dashboards for each user role;</li>
                             <li>Highlighted products and promotions on the homepage;</li>
-                            <li>Shopping cart, checkout flow, and shipment tracking;</li>
+                            <li>Shopping cart, wishlisting, checkout flow with Stripe and shipment tracking;</li>
                             <li>Store creation and management for sellers;</li>
                             <li>Secure backend with middleware and validations;</li>
                         </ol>
@@ -50,7 +55,7 @@ const Project = () => {
                             <li><span className="font-semibold">Backend</span>: Node.js, Express.js, PostgreSQL, RESTful API architecture;</li>
                             <li><span className="font-semibold">Authentication & Security</span>: JWT, Bcrypt, CORS, Helmet, Rate Limiter, Validator.js;</li>
                             <li><span className="font-semibold">Design</span>: Figma (UI/UX);</li>
-                            <li><span className="font-semibold">Project Management & Deployment</span>: GitHub, Jira, Supabase;</li>
+                            <li><span className="font-semibold">Project Management:</span>: GitHub, Jira, Supabase;</li>
                             <li><span className="font-semibold">Additional</span>: Fully responsive design and modular architecture;</li>
                         </ol>
                         <div id="images" className="text-sm sm:text[1rem] text-center text-[#ae884c]">
@@ -74,6 +79,16 @@ const Project = () => {
                                 </figcaption>
                             </figure>
                             <figure className="mb-8 sm:mb-12">
+                                <img src={category} 
+                                    alt="category page" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3">
+                                    Suggestion section on Homepage
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-8 sm:mb-12">
                                 <img src={login} 
                                     alt="login page" 
                                     width={896}
@@ -91,6 +106,46 @@ const Project = () => {
                                     className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
                                 <figcaption className="mt-3">
                                     Register page for users
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-8 sm:mb-12">
+                                <img src={profile} 
+                                    alt="profile page" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3">
+                                    Profile page for users
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-8 sm:mb-12">
+                                <img src={product} 
+                                    alt="product page" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3">
+                                    Product page for users
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-8 sm:mb-12">
+                                <img src={details} 
+                                    alt="details section" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3">
+                                    Details section on Product page
+                                </figcaption>
+                            </figure>
+                            <figure className="mb-8 sm:mb-12">
+                                <img src={cart} 
+                                    alt="cart page" 
+                                    width={896}
+                                    height={510}
+                                    className="rounded-xl shadow-md w-full max-w-4xl mx-auto"/>
+                                <figcaption className="mt-3">
+                                    Cart page for users
                                 </figcaption>
                             </figure>
                             <figure className="mb-8 sm:mb-12">

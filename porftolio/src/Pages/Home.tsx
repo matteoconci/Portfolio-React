@@ -15,7 +15,7 @@ const Home = () => {
                     height={340} 
                     />
                 <div>
-                    <p className="text-center sm:text-left mx-3 text-[0.75rem] sm:text-2xl">
+                    <p className="text-center sm:text-left mx-3 text-[0.75rem] sm:text-xl">
                         Hi! I'm Matteo, a junior Full-Stack Developer from Italy who loves turning idea into real web applications. <br></br>
                         I work across front-end and back-end with curiosity, ambition, and discipline, always motivated to improve. <br></br>
                         I’m driven to keep growing as a developer and to contribute with dedication and teamwork. <br></br>
